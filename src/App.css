@@ -1,0 +1,57 @@
+.app{
+  height: 100%;
+  background: url("./images/city.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  width: 50%;
+  height: 30%;
+  background-color: whitesmoke;
+  border-radius: 25px;
+  box-shadow: 10px 10px;
+  padding: 1%;
+}
+h1{
+  display: flex;
+  align-items: center;
+  height: 300px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.btn{
+  position: relative;
+  outline: none;
+  text-decoration: none;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  height: 200px;
+  width: 150px;
+  opacity: 1;
+  background-color: #ffffff;
+  border: 1px solid rgba(22,76,167,0.6);
+}
+
+.btn span{
+  color: #164ca7;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+}
+
+.btn:hover{
+   box-shadow: inset 100px 0 0 0 #86c5f9;
+   cursor: pointer;
+}
